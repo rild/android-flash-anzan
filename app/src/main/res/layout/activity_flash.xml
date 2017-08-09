@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="rimp.rild.com.android.android_flash_anzan.FlashActivity">
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="スタート"
+        android:visibility="visible"
+        android:layout_weight="1"
+        android:onClick="start"/>
+
+    <TextView
+        android:id="@+id/flash_main"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:text="00"
+        android:textSize="42sp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="次へ"
+        android:visibility="invisible"
+        android:layout_weight="1"
+        android:onClick="go2Result"/>
+</LinearLayout>

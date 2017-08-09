@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="rimp.rild.com.android.android_flash_anzan.ResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="答え"
+            android:textSize="36sp"
+            android:id="@+id/textView2"/>
+
+        <TextView
+            android:id="@+id/result_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textSize="48sp" />
+
+        <Button
+            android:onClick="go2Main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="はじめに戻る" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:text="00"
+            android:textSize="48sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:text="00"
+            android:textSize="48sp" />
+    </LinearLayout>
+</ScrollView>
